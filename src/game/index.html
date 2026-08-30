@@ -5,11 +5,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Geometry Dash Web</title>
 	<link rel="stylesheet" href="/style.css">
+	<script>
+		const checkHash = () => {
+			if (location.hash.slice(1) === 'beta') {
+				location.href = './game/beta';
+			}
+		}
+		window.addEventListener('hashchange', checkHash);
+		checkHash();
+	</script>
 </head>
 <body>
-	<h1>Oops! We're sorry...</h1>
-	<p>This part of the website is still in production.</p>
+	<h1>Oops! We're very sorry...</h1>
+	<p>This part of the website is still in the works.</p>
 	<p>Hopefully we get it working one day!</p>
 	<a href="../">← Go back</a>
+
+	<h2>But...</h2>
+	<p>We <i>do</i> have a <a href="#beta">beta version</a> that is more frequently updated.</p>
+	<p>Note that it <b>WILL</b> be buggier, since stable releases are only launched here.</p>
+	<p>If you're just very impatient <small>(no offense intended)</small>, <b>USE THE BETA VERSION AT YOUR OWN RISK!</b></p>
 </body>
 </html>
