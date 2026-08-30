@@ -8,7 +8,7 @@
 	<script>
 		const checkHash = () => {
 			if (location.hash.slice(1) === 'beta') {
-				location.href += './game/beta';
+				location.href = './game/beta';
 			}
 		}
 		window.addEventListener('hashchange', checkHash);
