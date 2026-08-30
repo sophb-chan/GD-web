@@ -1,0 +1,50 @@
+html,
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+body {
+	background: linear-gradient(-15deg, #012 0%, #330 100%);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+	padding-left: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+code {
+	background: #550;
+	padding: 2px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+}
+
+a[href] {
+	color: #ff0;
+}
+
+a[href]:hover {
+	color: #ff8;
+}
+
+a[href]:active {
+	color: #cc6;
+}
+
+a[href]:visited {
+	color: #0af;
+}
+
+a[href]:visited:hover {
+	color: #0af;
+}
+
+a[href]:visited:active {
+	color: #0af;
+}
